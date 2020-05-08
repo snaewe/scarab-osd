@@ -5,7 +5,7 @@
 /********************       OSD HARDWARE settings      *********************/
 //Choose ONLY ONE option:
 //#define MINIMOSD                  // Uncomment this if using standard MINIMOSD hardware (default)
-//#define MICROMINIMOSD             // Uncomment this if using the MICRO MINIMOSD hardware
+#define MICROMINIMOSD             // Uncomment this if using the MICRO MINIMOSD hardware
 //#define AEROMAX                   // Uncomment this if using MWOSD AEROMAX hardware
 //#define RTFQV1                    // Uncomment this if using standard RTFQ/Witespy V1.1 OSD, select this to correct for both swapped bat1/bat 2 and to also use alternative resistors / pinouts.
 //#define RTFQMICRO                 // Uncomment this if using micro RTFQ/Witespy Micro Minim OSD, select this to correct for swapped bat1/bat 2.
@@ -35,7 +35,7 @@
 // latest release...
 //#define BETAFLIGHT                // Uncomment this if you are using latest BETAFLIGHT version 3.1 onwards
 //#define CLEANFLIGHT               // Uncomment this if you are using latest CLEANFLIGHT version from repository (2.2.0 at time of this MWOSD release)
-//#define iNAV                      // Uncomment this if you are using latest iNAV version from repository (1.01 at time of this MWOSD release)
+#define iNAV                      // Uncomment this if you are using latest iNAV version from repository (1.01 at time of this MWOSD release)
 //#define iNAV_KK                   // Uncomment this if you are using AEROMAX OSD and BARO sensor addition with iNAV with KK audio vario
 //#define APM                       // Uncomment this if you are using Ardupilot on APM / PIXHAWK / other supported hardware. Supports most MAVLINK 1.0 compatible FC
 //#define PX4                       // Uncomment this if you are using PX4 stack on PIXHAWK and other supported hardware
@@ -81,7 +81,7 @@
 /********************       AIRCRAFT/INSTALLATION TYPE settings      *********************/
 //Choose ONLY ONE option:
 //#define ROTORCRAFT                // Default for multirotors etc.
-//#define FIXEDWING                 // Uncomment this if you are using fixed wing with MultiWii or Baseflight
+#define FIXEDWING                 // Uncomment this if you are using fixed wing with MultiWii or Baseflight
 //#define QUADPLANE                 // Uncomment this ONLY if you are using ARDUPILOT QUADPLANE
 //#define SUBMARINE                 // Uncomment this ONLY if you are using ARDUSUB
 //#define GPSSUBMARINE              // Uncomment this ONLY if you are using GPSARDUSUB
@@ -184,7 +184,7 @@
 
 /******************** Serial speed settings *********************/
 // Overides defaults if required (57.6k for MAVLINK based or 115k for all others).
-//#define BAUDRATE 115200
+#define BAUDRATE 115200
 //#define BAUDRATE 57600
 //#define BAUDRATE 38400
 //#define BAUDRATE 19200

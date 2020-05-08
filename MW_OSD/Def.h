@@ -6,7 +6,7 @@
 /*----------------------------------------------       Developer / debug parameters      ----------------------------------------------------*/
 
 // Display Debug screen display options
-//#define DEBUGMW            // Enable to display MSP debug values (assumes debug[x] values are not set elsewhere) 
+#define DEBUGMW            // Enable to display MSP debug values (assumes debug[x] values are not set elsewhere) 
 #define DEBUGDPOSMENU 3      // dispaly debug title at position X
 #define DEBUGDPOSRCDATA 33   // display RCDATA values at position X
 #define DEBUGDPOSANAL 84     // display sensor values at position X
